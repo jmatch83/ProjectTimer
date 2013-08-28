@@ -1,0 +1,28 @@
+Project Timer Keeper 3.0
+Created by: Jason Atcheson (jmatch83@gmail.com)
+Latest release date: 7.5.2013
+
+Project Timer Keeper is designed to help track time spent on various projects.
+
+Functions:
+* List projects
+* Track timers per project
+* View report of projects/time which converts to decimal values
+* Autobackup of projects time report
+    * Saves file to "C:\Temp\TimeReportBackups" every 10 minutes
+    * Appends to current file (filename determined when application loads)
+    * Flushes directory when gets to contain 50 items, will not delete current file.
+* Save project list for future use
+* Open saved project list (timers are zeroed out).
+
+
+Navigating the form:
+  * Middle white list box is where your list of projects are displayed along with their current/running time.
+  * To add a project, use the text boxes below the main list box to enter a Project ID, Project Name, and Project Description.
+  NOTE: The Project ID needs to be unique to those others in the list box.
+  * To the right are buttons for Starting/Pausing/Reseting project timers.
+  * You can also double-click a project line to start/pause the timer for that project.
+  NOTE: Only one project's timer can be running at one time.
+  * With the buttons on the right is a label box that will display the current running project and will be green, this is to provide a clearer idea on which is running as the listbox can be hard to read which is running.
+  * Below the label is a "Test Backup" button.  This was introduced in version 3.0 to test the autobackup functionality of the time report.  It will likely replace the current View Report/Save function.
+  

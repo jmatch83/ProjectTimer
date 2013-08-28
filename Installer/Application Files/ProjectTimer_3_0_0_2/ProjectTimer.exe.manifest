@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ProjectTimer.exe" version="3.0.0.2" publicKeyToken="c7b9347238ce5cdc" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="ACTIVITL.ICO" asmv2:publisher="Project Timer Keeper" asmv2:product="Project Timer Keeper" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ProjectTimer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ProjectTimer.exe" parameters="" />
+  </entryPoint>
+  <co.v1:useManifestForTrust xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ProjectTimer.exe" size="59392">
+      <assemblyIdentity name="ProjectTimer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>kHBkbNGvtpXkm3K+8sKhjjlFe+g=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ACTIVITL.ICO" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Ga7BUDFrdaS/QFfZnX9Ay9kLOfk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="project output\content files\How-To-Read-Me.txt" size="1664">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>qQz2gZKVMLd8PybglX/8fzX5tBA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=WHQ_NT_DOMAIN\JA017769" issuerKeyHash="6613b7de974896d9e2a4677f7e9316a5efa603ed" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>F5ji4nMtzlp4V9ThMSQB7EDQnKQ=</DigestValue></Reference></SignedInfo><SignatureValue>CKiUfXIiohzWl+jwmXTADA8jWFhveBsJgplG6VFRtXHbbzzhNUSNXCbpj/PCldgClsPwcPuTxFs7Z2vqRE8Nws3w99AG8YO404FiX8iozCnA5s2Jza/6ipK+3ITtsrw/ju/A8OdOrBuKCkBHwVKNab8QcTKWAvKoQHgY+Y3J4MQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tKO5n6Blz0zxoaTlPl4Y715AjaZVjT481W5MNgsekFUqNl8mw2euBgpr/xeh1WTzd490h1LNBX8iSuEDkKLjjjlrZb5fWym4OPIdHsGxOVMpDBTBftEr29s+4LCkBkn9pdvRBbtGI28XVre5C3TNg1oKGFy0XfvHTjSNmX3AbWc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="a49cd040ec012431e1d457785ace2d73e2e29817" Description="" Url=""><as:assemblyIdentity name="ProjectTimer.exe" version="3.0.0.2" publicKeyToken="c7b9347238ce5cdc" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=WHQ_NT_DOMAIN\JA017769</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>EmCcSDrkMePPgo3thp5ECrK/3Cg=</DigestValue></Reference></SignedInfo><SignatureValue>fh6fGdGlIPLNu+wOo+YZpqKTZ/cAETzScvd02emDvf3Q09EBCvMdGJYI6ngvlKB775aqQ7ZCWBZG0krEgI4YYQDn/ZCihfhZie107zn2rxGw0OKLwn0l8VNc4bB5V1II8CfrrZQG8s4b5bi0b5v5jYdQ0E49CQrxRcUwj2TmaeE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tKO5n6Blz0zxoaTlPl4Y715AjaZVjT481W5MNgsekFUqNl8mw2euBgpr/xeh1WTzd490h1LNBX8iSuEDkKLjjjlrZb5fWym4OPIdHsGxOVMpDBTBftEr29s+4LCkBkn9pdvRBbtGI28XVre5C3TNg1oKGFy0XfvHTjSNmX3AbWc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQMTxpS1tbq7lAHDlP35oarTANBgkqhkiG9w0BAQUFADA3MTUwMwYDVQQDHiwAVwBIAFEAXwBOAFQAXwBEAE8ATQBBAEkATgBcAEoAQQAwADEANwA3ADYAOTAeFw0xMzA3MDUxNTEyMzlaFw0xNDA3MDUyMTEyMzlaMDcxNTAzBgNVBAMeLABXAEgAUQBfAE4AVABfAEQATwBNAEEASQBOAFwASgBBADAAMQA3ADcANgA5MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC0o7mfoGXPTPGhpOU+XhjvXkCNplWNPjzVbkw2Cx6QVSo2XybDZ64GCmv/F6HVZPN3j3SHUs0FfyJK4QOQouOOOWtlvl9bKbg48h0ewbE5UykMFMF+0Svb2z7gsKQGSf2l29EFu0YjbxdWt7kLdM2DWgoYXLRd+8dONI2ZfcBtZwIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAGAD9c7NO2+OfVQZ+v6GFo4W+zuamDeT15XPWv2v3NM97l8ugz/Lhfi6dFOjYAV1f/10wI42nCTmUnuQ4MAvcYTP0oxC7+WEXulcRov2eKbOVNcfoHbxdP1VAiTEdvIsr1+s0gkzu+enuiNvmgMVPquEfz3olNQVpgRnj51H5MVs</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
